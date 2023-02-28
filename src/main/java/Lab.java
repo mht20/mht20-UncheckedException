@@ -14,6 +14,10 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+        int a = 10;
+        int b =0;
+        int sum = a /b;
+        System.out.println(sum);
 
     }
 }
